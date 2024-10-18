@@ -55,9 +55,10 @@ namespace Weapon
                
                 Console.WriteLine("atis modu avtomatik olaraq deyisdirildi");
             }
-            else 
-            Console.WriteLine("mod tekli olraraq deyisdirildi");
+            else if(Mod.ToLower()=="avtomatik"
             Mod = "tekli";
+            Console.WriteLine("mod tekli olraraq deyisdirildi");
+            
         }
         public void  Getremainbullet()
         {
