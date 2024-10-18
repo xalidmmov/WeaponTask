@@ -14,10 +14,11 @@
                 Console.WriteLine("emeliyyat sec ");
                 Console.WriteLine("1: Ates acmaq ucun");
                 Console.WriteLine("2: Daraga lazim olan gulle sayi");
-                Console.WriteLine("3: Daragi yenilemek ucun");
-                Console.WriteLine("4: Ates modunu deyismek ucun");
+                Console.WriteLine("3: Ates modunu deyismek ucun");
+                Console.WriteLine("4: Daragi yenilemek ucun");
                 Console.WriteLine("5: Proqrami dayandir");
                 Console.WriteLine("6: Yeni menyuya kec");
+                Console.WriteLine("0: Infonu goster");
                 string secim=Console.ReadLine();
                 switch(secim)
                 {
